@@ -1,16 +1,15 @@
-## Hi there 👋
+## Hi there, I'm Russell Cooper 👋
 
-<!--
-**RussellCooper-DJZ/RussellCooper-DJZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile repository.
 
-Here are some ideas to get you started:
+### About me
+- 🔭 I’m currently working on data and automation projects.
+- 🌱 I’m currently learning advanced testing strategies.
+- 👯 I’m looking to collaborate on practical open-source tools.
+- 💬 Ask me about Python, APIs, and CI workflows.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Contact
+- 📫 Reach me via GitHub Issues in this repository.
+
+### Fun fact
+- ⚡ I enjoy turning small scripts into reliable developer tooling.

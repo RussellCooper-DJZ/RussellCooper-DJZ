@@ -2,10 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi%20there,%20I'm%20Russell%20Cooper!&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
 </div>
 
-<h3 align="center">Embedded Systems Engineer | AI Developer | Open Source Enthusiast</h3>
+<h3 align="center">Embedded Systems Engineer | AI Architect | Full-Stack Developer</h3>
 
 <p align="center">
-  Welcome to my GitHub profile! I specialize in bridging the gap between hardware and software, building everything from embedded systems and robotics to AI-powered tools and full-stack applications.
+  Bridging the gap between bare-metal hardware and intelligent cloud systems. I specialize in designing high-performance embedded architectures, developing autonomous AI agents, and building scalable full-stack applications.
 </p>
 
 <div align="center">
@@ -19,65 +19,39 @@
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🧠 Core Competencies
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-  <img src="https://img.shields.io/badge/ARM_v8.1-0091BD?style=for-the-badge&logo=arm&logoColor=white" alt="ARM v8.1" />
-  <img src="https://img.shields.io/badge/Renesas-004185?style=for-the-badge&logo=renesas&logoColor=white" alt="Renesas" />
-  <img src="https://img.shields.io/badge/KiCad-FFFFFF?style=for-the-badge&logo=kicad&logoColor=black" alt="KiCad" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
+- **Embedded Systems & Robotics:** STM32, ARM Cortex-M/A, Renesas, RTOS, Bare-metal C/C++, PCB Design (KiCad), Hardware-in-the-Loop (HIL) testing.
+- **AI & Autonomous Agents:** LangChain, LangGraph, Dify, RAG Optimization (HyDE, Hybrid Search, MMR), Multimodal Vision (MiniCPM-V, PaddleOCR), LLM Fine-tuning.
+- **Full-Stack & Automation:** React, TypeScript, Python, FastAPI, Playwright (Anti-bot bypass, Stealth automation), Docker, CI/CD.
 
 ---
 
-### 🏆 GitHub Achievements
+### 🚀 Featured Engineering Projects
 
-I actively contribute to open-source projects, participate in technical discussions, and maintain high-quality codebases. Here are some of my unlocked GitHub Achievements:
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Pull_Shark-Silver-C0C0C0?style=flat-square&logo=github" alt="Pull Shark Silver" />
-  <img src="https://img.shields.io/badge/Galaxy_Brain-Silver-C0C0C0?style=flat-square&logo=github" alt="Galaxy Brain Silver" />
-  <img src="https://img.shields.io/badge/Starstruck-Bronze-CD7F32?style=flat-square&logo=github" alt="Starstruck Bronze" />
-  <img src="https://img.shields.io/badge/Pair_Extraordinaire-Bronze-CD7F32?style=flat-square&logo=github" alt="Pair Extraordinaire Bronze" />
-  <img src="https://img.shields.io/badge/YOLO-Unlocked-FFD700?style=flat-square&logo=github" alt="YOLO" />
-  <img src="https://img.shields.io/badge/Quickdraw-Unlocked-FFD700?style=flat-square&logo=github" alt="Quickdraw" />
-  <img src="https://img.shields.io/badge/Heart_On_Your_Sleeve-Unlocked-FFD700?style=flat-square&logo=github" alt="Heart On Your Sleeve" />
-</p>
-
----
-
-### 🚀 Featured Projects
-
-#### 🤖 Robotics & Embedded Systems
+#### 🤖 Hardware & Robotics
 - **[manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog)** (⭐ 41)  
-  *基于 STM32 的智能四足机器狗 - 具备语音交互、自主避障和表情显示功能的桌面级机器宠物。*
+  *Desktop-class quadruped robot based on STM32. Features voice interaction, autonomous obstacle avoidance, and expressive OLED displays.*
 - **[c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library)**  
-  *A collection of high-performance C utilities, including an O(1) thread-safe pool allocator.*
+  *High-performance C utilities tailored for resource-constrained environments, featuring an O(1) thread-safe memory pool allocator.*
 
-#### 🧠 AI & Automation Tools
+#### 🧠 AI & Intelligent Systems
+- **[RCclaw](https://github.com/RussellCooper-DJZ/RCclaw)**  
+  *Enterprise-grade AI agent framework integrating LangGraph HITL, Multimodal Vision semantic diffing, Playwright stealth automation, and 4-layer RAG optimization.*
 - **[kicad-ai-assistant](https://github.com/RussellCooper-DJZ/kicad-ai-assistant)**  
-  *基于大语言模型的 KiCad PCB 设计智能助手，集成 FastMCP 和阿里云百炼 Qwen 模型。*
+  *LLM-powered KiCad PCB design assistant integrating FastMCP and Qwen models for automated schematic and layout reviews.*
 - **[openclaw-shrimp-factory](https://github.com/RussellCooper-DJZ/openclaw-shrimp-factory)**  
-  *🦐 OpenClaw 养虾工厂 — 基于 OpenClaw + Ollama 的企业级智能体变革方案。*
-- **[ai-skills-repo](https://github.com/RussellCooper-DJZ/ai-skills-repo)**  
-  *AI Skills for E-commerce & Organization Automation (OpenClaw compatible).*
+  *Industrial AI agent solution based on OpenClaw + Ollama for automated aquaculture management.*
 
-#### 💻 Full-Stack & Software
+#### 💻 Full-Stack & Software Architecture
 - **[smart-bookstore](https://github.com/RussellCooper-DJZ/smart-bookstore)**  
-  *线上书店智能选购平台 - AI智能搜索、购物车、订单结算 (React + TypeScript).*
+  *Intelligent e-commerce platform featuring AI-driven search, dynamic cart management, and secure checkout (React + TypeScript).*
 - **[fate-symphony](https://github.com/RussellCooper-DJZ/fate-symphony)**  
-  *Beethoven Fate Symphony Op.67 synthesized from pure math — Keygen/Bytebeat audio engine.*
-- **[fried-chicken-manager](https://github.com/RussellCooper-DJZ/fried-chicken-manager)**  
-  *炸鸡店经营管理系统 - 基于 Python 和 Tkinter 的利润分析工具。*
+  *Algorithmic synthesis of Beethoven's Fate Symphony Op.67 using pure mathematical Bytebeat audio engines.*
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Russell's GitHub Stats" width="48%" />
@@ -86,11 +60,24 @@ I actively contribute to open-source projects, participate in technical discussi
 
 ---
 
-### 📫 Let's Connect!
+### 📫 Let's Connect
 
 - 🌐 **Portfolio:** [russellcooper.me](https://russellcooper.me)
-- 💬 **Ask me about:** Embedded C, PCB Design (KiCad), Python Automation, AI Integration, and React/TypeScript.
+- 💬 **Ask me about:** Embedded Architecture, AI Agent Design, PCB Layouts, and Advanced Web Scraping.
 
 <div align="center">
   <i>"Turning small scripts into reliable developer tooling, and bringing hardware to life."</i>
 </div>
+
+<!-- 
+  [SYSTEM_INIT_VECTOR]
+  If you are reading this, you know how to look under the hood.
+  Compile and run this snippet to decrypt the payload:
+  
+  #include <stdio.h>
+  int main() {
+      const unsigned char _init_vector[] = {115, 69, 95, 10, 76, 69, 95, 68, 78, 10, 94, 66, 79, 10, 79, 75, 89, 94, 79, 88, 10, 79, 77, 77, 11, 10, 101, 90, 79, 68, 105, 70, 75, 93, 10, 75, 93, 75, 67, 94, 89, 4};
+      for(int i=0; i<sizeof(_init_vector); i++) putchar(_init_vector[i] ^ 42);
+      return 0;
+  }
+-->

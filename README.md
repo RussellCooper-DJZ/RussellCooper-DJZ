@@ -1,73 +1,66 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi%20there,%20I'm%20Russell%20Cooper!&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
-</div>
+# Russell Cooper (DJZ)
 
-<h3 align="center">Embedded Systems Engineer | AI Architect | Full-Stack Developer</h3>
+```c
+#include <stdio.h>
+#include <stdint.h>
 
-<p align="center">
-  Bridging the gap between bare-metal hardware and intelligent cloud systems. I specialize in designing high-performance embedded architectures, developing autonomous AI agents, and building scalable full-stack applications.
-</p>
+typedef struct {
+    const char* role;
+    const char* focus;
+    uint32_t coffee_consumed;
+} Engineer;
 
-<div align="center">
-  <a href="https://github.com/RussellCooper-DJZ">
-    <img src="https://img.shields.io/github/followers/RussellCooper-DJZ?label=Followers&style=social" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/RussellCooper-DJZ">
-    <img src="https://img.shields.io/github/stars/RussellCooper-DJZ?style=social" alt="GitHub stars" />
-  </a>
-</div>
+int main() {
+    Engineer russell = {
+        .role = "Embedded Systems & AI Architect",
+        .focus = "Bridging bare-metal hardware with autonomous AI agents",
+        .coffee_consumed = 0xFFFFFFFF
+    };
+    printf("Building reliable tooling and bringing hardware to life.\n");
+    return 0;
+}
+```
+
+## 🔬 Technical Arsenal
+
+| Domain | Technologies & Frameworks |
+|---|---|
+| **Embedded & Hardware** | STM32, ARM Cortex-M/A, Renesas, RTOS, Bare-metal C/C++, KiCad PCB Design, HIL Testing |
+| **AI & Autonomous Agents** | LangGraph (HITL), Dify, RAG (HyDE, Hybrid Search, MMR), VLM (MiniCPM-V), LLM Fine-tuning |
+| **Systems & Backend** | Python, C, C++, Rust, FastAPI, Docker, CI/CD, Playwright Stealth Automation |
+| **Frontend** | React, TypeScript, TailwindCSS |
+
+## 🚀 Engineering Highlights
+
+### [RCclaw](https://github.com/RussellCooper-DJZ/RCclaw)
+**Enterprise-grade AI Agent Framework**
+- **Architecture:** LangGraph-based `StateGraph` with async Human-in-the-Loop (HITL) interrupt/resume mechanisms.
+- **Vision Engine:** Dual-layer UI change detection using pHash perceptual hashing + VLM semantic diffing.
+- **RAG Pipeline:** 4-layer retrieval optimization (Semantic Chunking → HyDE → Hybrid Search → MMR Reranking).
+
+### [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog)
+**Desktop-class Quadruped Robot**
+- **Hardware:** STM32-based custom PCB, OLED expressive displays.
+- **Control System:** Bare-metal C kinematics engine, autonomous obstacle avoidance, voice interaction.
+
+### [kicad-ai-assistant](https://github.com/RussellCooper-DJZ/kicad-ai-assistant)
+**LLM-powered PCB Design Assistant**
+- **Integration:** FastMCP and Qwen models for automated schematic and layout reviews.
+- **Impact:** Programmatic DRC/ERC verification and intelligent routing suggestions.
+
+### [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library)
+**High-performance C Utilities**
+- **Features:** O(1) thread-safe memory pool allocator, lock-free ring buffers.
+- **Target:** Resource-constrained embedded environments requiring deterministic execution.
+
+## 📈 Contribution Graph
+
+![Russell's GitHub Activity Graph](https://ghchart.rshah.org/219138/RussellCooper-DJZ)
 
 ---
-
-### 🧠 Core Competencies
-
-- **Embedded Systems & Robotics:** STM32, ARM Cortex-M/A, Renesas, RTOS, Bare-metal C/C++, PCB Design (KiCad), Hardware-in-the-Loop (HIL) testing.
-- **AI & Autonomous Agents:** LangChain, LangGraph, Dify, RAG Optimization (HyDE, Hybrid Search, MMR), Multimodal Vision (MiniCPM-V, PaddleOCR), LLM Fine-tuning.
-- **Full-Stack & Automation:** React, TypeScript, Python, FastAPI, Playwright (Anti-bot bypass, Stealth automation), Docker, CI/CD.
-
----
-
-### 🚀 Featured Engineering Projects
-
-#### 🤖 Hardware & Robotics
-- **[manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog)** (⭐ 41)  
-  *Desktop-class quadruped robot based on STM32. Features voice interaction, autonomous obstacle avoidance, and expressive OLED displays.*
-- **[c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library)**  
-  *High-performance C utilities tailored for resource-constrained environments, featuring an O(1) thread-safe memory pool allocator.*
-
-#### 🧠 AI & Intelligent Systems
-- **[RCclaw](https://github.com/RussellCooper-DJZ/RCclaw)**  
-  *Enterprise-grade AI agent framework integrating LangGraph HITL, Multimodal Vision semantic diffing, Playwright stealth automation, and 4-layer RAG optimization.*
-- **[kicad-ai-assistant](https://github.com/RussellCooper-DJZ/kicad-ai-assistant)**  
-  *LLM-powered KiCad PCB design assistant integrating FastMCP and Qwen models for automated schematic and layout reviews.*
-- **[openclaw-shrimp-factory](https://github.com/RussellCooper-DJZ/openclaw-shrimp-factory)**  
-  *Industrial AI agent solution based on OpenClaw + Ollama for automated aquaculture management.*
-
-#### 💻 Full-Stack & Software Architecture
-- **[smart-bookstore](https://github.com/RussellCooper-DJZ/smart-bookstore)**  
-  *Intelligent e-commerce platform featuring AI-driven search, dynamic cart management, and secure checkout (React + TypeScript).*
-- **[fate-symphony](https://github.com/RussellCooper-DJZ/fate-symphony)**  
-  *Algorithmic synthesis of Beethoven's Fate Symphony Op.67 using pure mathematical Bytebeat audio engines.*
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" alt="Russell's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" alt="Top Languages" width="48%" />
-</div>
-
----
-
-### 📫 Let's Connect
 
 - 🌐 **Portfolio:** [russellcooper.me](https://russellcooper.me)
 - 💬 **Ask me about:** Embedded Architecture, AI Agent Design, PCB Layouts, and Advanced Web Scraping.
-
-<div align="center">
-  <i>"Turning small scripts into reliable developer tooling, and bringing hardware to life."</i>
-</div>
 
 <!-- 
   [SYSTEM_INIT_VECTOR]

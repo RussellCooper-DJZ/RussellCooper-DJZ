@@ -3,13 +3,11 @@
 ```c
 #include <stdio.h>
 #include <stdint.h>
-
 typedef struct {
     const char* role;
     const char* focus;
     uint32_t coffee_consumed;
 } Engineer;
-
 int main() {
     Engineer russell = {
         .role = "Embedded Systems & AI Architect",
@@ -21,6 +19,11 @@ int main() {
 }
 ```
 
+## 📊 GitHub Stats
+
+[![Russell's GitHub Stats](https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&show_icons=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
 ## 🔬 Technical Arsenal
 
 | Domain | Technologies & Frameworks |
@@ -31,6 +34,16 @@ int main() {
 | **Frontend** | React, TypeScript, TailwindCSS |
 
 ## 🚀 Engineering Highlights
+
+### [TrendRadar](https://github.com/RussellCooper-DJZ/TrendRadar)
+**全网热点实时追踪系统**
+- **功能:** 监控35+平台热点（抖音、知乎、B站等），智能筛选、自动推送、AI对话分析。
+- **技术:** 基于 MCP 的 AI 分析工具，支持多渠道推送（微信、飞书、钉钉、Telegram等）。
+
+### [BettaFish](https://github.com/RussellCooper-DJZ/BettaFish)
+**人人可用的多Agent舆情分析助手**
+- **功能:** 打破信息茧房，还原舆情原貌，预测未来走向，辅助决策。
+- **技术:** 从0实现，不依赖任何框架，多 Agent 协同工作。
 
 ### [RCclaw](https://github.com/RussellCooper-DJZ/RCclaw)
 **Enterprise-grade AI Agent Framework**
@@ -54,11 +67,9 @@ int main() {
 - **Target:** Resource-constrained embedded environments requiring deterministic execution.
 
 ## 📈 Contribution Graph
-
 ![Russell's GitHub Activity Graph](https://ghchart.rshah.org/219138/RussellCooper-DJZ)
 
 ---
-
 - 🌐 **Portfolio:** [russellcooper.me](https://russellcooper.me)
 - 💬 **Ask me about:** Embedded Architecture, AI Agent Design, PCB Layouts, and Advanced Web Scraping.
 
@@ -66,7 +77,6 @@ int main() {
   [SYSTEM_INIT_VECTOR]
   If you are reading this, you know how to look under the hood.
   Compile and run this snippet to decrypt the payload:
-  
   #include <stdio.h>
   int main() {
       const unsigned char _init_vector[] = {115, 69, 95, 10, 76, 69, 95, 68, 78, 10, 94, 66, 79, 10, 79, 75, 89, 94, 79, 88, 10, 79, 77, 77, 11, 10, 101, 90, 79, 68, 105, 70, 75, 93, 10, 75, 93, 75, 67, 94, 89, 4};

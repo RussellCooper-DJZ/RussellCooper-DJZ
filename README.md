@@ -96,12 +96,24 @@ This portfolio combines microcontroller-level control, hardware diagnostics, det
 
 These repositories demonstrate applied experimentation across generative computing, desktop analytics tools and Chinese speech-data resources.
 
+## Live Metrics
+
+[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=RussellCooper-DJZ.RussellCooper-DJZ&left_text=Profile%20Views)](https://github.com/RussellCooper-DJZ)
+
+> The visitor badge records profile-page requests. It is a page-view counter rather than a unique-visitor measure.
+
 ## GitHub Activity
 
 <p>
   <a href="https://github.com/RussellCooper-DJZ">
     <img height="165" src="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&show_icons=true&hide_border=true&theme=transparent" alt="Russell's GitHub statistics" />
   </a>
+  <a href="https://git.io/streak-stats">
+    <img height="165" src="https://streak-stats.demolab.com/?user=RussellCooper-DJZ&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+  </a>
+</p>
+
+<p>
   <a href="https://github.com/RussellCooper-DJZ?tab=repositories">
     <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
   </a>

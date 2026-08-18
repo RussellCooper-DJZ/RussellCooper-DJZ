@@ -1,4 +1,6 @@
-# Russell Cooper (DJZ)
+<h1 align="center">Russell Cooper (DJZ)</h1>
+
+<p align="center"><strong>Embedded Systems · Edge AI · Autonomous Agents</strong></p>
 
 ```c
 #include <stdio.h>
@@ -21,9 +23,13 @@ int main() {
 
 > Building reliable systems where **embedded intelligence**, **autonomous agents**, and **practical developer tooling** meet.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-russellcooper.me-111827?style=for-the-badge&logo=googlechrome&logoColor=white)](https://russellcooper.me)
-[![GitHub](https://img.shields.io/badge/GitHub-RussellCooper--DJZ-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RussellCooper-DJZ)
-[![Focus](https://img.shields.io/badge/Focus-Embedded%20%2B%20AI-0F766E?style=for-the-badge)](https://github.com/RussellCooper-DJZ?tab=repositories)
+<p align="center">
+  <a href="https://russellcooper.me"><img src="https://img.shields.io/badge/Portfolio-russellcooper.me-0F172A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://github.com/RussellCooper-DJZ"><img src="https://img.shields.io/badge/GitHub-RussellCooper--DJZ-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/RussellCooper-DJZ?tab=repositories"><img src="https://img.shields.io/badge/Focus-Embedded%20%2B%20AI-0F766E?style=for-the-badge" alt="Focus" /></a>
+</p>
+
+---
 
 ## Profile at a Glance
 
@@ -35,7 +41,7 @@ int main() {
 | **Product interfaces** | React, TypeScript and Tailwind CSS |
 
 <p>
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111827" alt="C" />
+  <img src="https://img.shields.io/badge/C-0F766E?style=flat-square&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -47,10 +53,12 @@ int main() {
 
 ## Selected Open-Source Projects
 
-[![RCclaw](https://img.shields.io/badge/RCclaw-AI%20Agent%20Gateway-0F172A?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/RussellCooper-DJZ/RCclaw)
-[![TrendRadar](https://img.shields.io/badge/TrendRadar-AI%20Intelligence-7C3AED?style=for-the-badge&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/TrendRadar)
-[![BettaFish](https://img.shields.io/badge/BettaFish-Multi--Agent%20Analysis-0369A1?style=for-the-badge&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/BettaFish)
-[![manbo-robot-dog](https://img.shields.io/badge/manbo--robot--dog-STM32%20Robotics-065F46?style=for-the-badge&logo=stmicroelectronics&logoColor=white)](https://github.com/RussellCooper-DJZ/manbo-robot-dog)
+<p align="center">
+  <a href="https://github.com/RussellCooper-DJZ/RCclaw"><img src="https://img.shields.io/badge/RCclaw-AI%20Agent%20Gateway-4338CA?style=for-the-badge&logo=typescript&logoColor=white" alt="RCclaw" /></a>
+  <a href="https://github.com/RussellCooper-DJZ/TrendRadar"><img src="https://img.shields.io/badge/TrendRadar-AI%20Intelligence-0E7490?style=for-the-badge&logo=python&logoColor=white" alt="TrendRadar" /></a>
+  <a href="https://github.com/RussellCooper-DJZ/BettaFish"><img src="https://img.shields.io/badge/BettaFish-Multi--Agent%20Analysis-0E7490?style=for-the-badge&logo=python&logoColor=white" alt="BettaFish" /></a>
+  <a href="https://github.com/RussellCooper-DJZ/manbo-robot-dog"><img src="https://img.shields.io/badge/manbo--robot--dog-STM32%20Robotics-0F766E?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="manbo robot dog" /></a>
+</p>
 
 | Project | Category | What it does | Core stack |
 |---|---|---|---|
@@ -63,59 +71,73 @@ int main() {
 
 ### 1. AI Agents, Automation & Developer Workflows
 
-[![OfficeMind-New](https://img.shields.io/badge/OfficeMind--New-Office%20Agent-5B21B6?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/OfficeMind-New)
-[![OfficeMind-Hackathon](https://img.shields.io/badge/OfficeMind--Hackathon-Automation%20Agent-6D28D9?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/OfficeMind-Hackathon)
-[![career-ops](https://img.shields.io/badge/career--ops-AI%20Career%20Ops-1D4ED8?style=flat-square&logo=javascript&logoColor=white)](https://github.com/RussellCooper-DJZ/career-ops)
-[![manus-skills](https://img.shields.io/badge/manus--skills-Reusable%20AI%20Skills-0E7490?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/manus-skills)
-[![Browser Operator](https://img.shields.io/badge/Browser%20Operator-CDP%20Integration-F59E0B?style=flat-square&logo=googlechrome&logoColor=111827)](https://github.com/RussellCooper-DJZ/openclaw-my-browser-operator)
+[![OfficeMind-New](https://img.shields.io/badge/OfficeMind--New-Office%20Agent-4338CA?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/OfficeMind-New)
+[![OfficeMind-Hackathon](https://img.shields.io/badge/OfficeMind--Hackathon-Automation%20Agent-4338CA?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/OfficeMind-Hackathon)
+[![career-ops](https://img.shields.io/badge/career--ops-AI%20Career%20Ops-4338CA?style=flat-square&logo=javascript&logoColor=white)](https://github.com/RussellCooper-DJZ/career-ops)
+[![manus-skills](https://img.shields.io/badge/manus--skills-Reusable%20AI%20Skills-4338CA?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/manus-skills)
+[![Browser Operator](https://img.shields.io/badge/Browser%20Operator-CDP%20Integration-4338CA?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/RussellCooper-DJZ/openclaw-my-browser-operator)
 
 This group covers agent runtimes, office automation, career workflows, reusable agent skills and browser-session integration. It reflects a focus on making AI systems actionable through reliable tools, interfaces and operational workflows.
 
 ### 2. Information Intelligence & Public-Opinion Analysis
 
-[![TrendRadar](https://img.shields.io/badge/TrendRadar-Multi--platform%20Monitoring-7C3AED?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/TrendRadar)
-[![BettaFish](https://img.shields.io/badge/BettaFish-Public--opinion%20Analysis-0369A1?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/BettaFish)
+[![TrendRadar](https://img.shields.io/badge/TrendRadar-Multi--platform%20Monitoring-0E7490?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/TrendRadar)
+[![BettaFish](https://img.shields.io/badge/BettaFish-Public--opinion%20Analysis-0E7490?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/BettaFish)
 
 These projects focus on turning broad, fast-moving information into decision-ready insight: real-time trend aggregation, intelligent filtering, push notifications, retrieval and multi-agent analysis.
 
 ### 3. Embedded Systems, Robotics & Edge AI
 
-[![manbo-robot-dog](https://img.shields.io/badge/manbo--robot--dog-STM32%20Robotics-065F46?style=flat-square&logo=stmicroelectronics&logoColor=white)](https://github.com/RussellCooper-DJZ/manbo-robot-dog)
-[![c-hacks-library](https://img.shields.io/badge/c--hacks--library-Systems%20Utilities-A8B9CC?style=flat-square&logo=c&logoColor=111827)](https://github.com/RussellCooper-DJZ/c-hacks-library)
-[![sigrok-pico](https://img.shields.io/badge/sigrok--pico-RP2040%20Instrumentation-334155?style=flat-square&logo=raspberrypi&logoColor=white)](https://github.com/RussellCooper-DJZ/sigrok-pico)
+[![manbo-robot-dog](https://img.shields.io/badge/manbo--robot--dog-STM32%20Robotics-0F766E?style=flat-square&logo=stmicroelectronics&logoColor=white)](https://github.com/RussellCooper-DJZ/manbo-robot-dog)
+[![c-hacks-library](https://img.shields.io/badge/c--hacks--library-Systems%20Utilities-0F766E?style=flat-square&logo=c&logoColor=white)](https://github.com/RussellCooper-DJZ/c-hacks-library)
+[![sigrok-pico](https://img.shields.io/badge/sigrok--pico-RP2040%20Instrumentation-0F766E?style=flat-square&logo=raspberrypi&logoColor=white)](https://github.com/RussellCooper-DJZ/sigrok-pico)
 [![ruhmi-framework-mcu](https://img.shields.io/badge/ruhmi--framework--mcu-Edge%20AI%20Deployment-0F766E?style=flat-square&logo=renesas&logoColor=white)](https://github.com/RussellCooper-DJZ/ruhmi-framework-mcu)
-[![hackathon-aiqtoolkit](https://img.shields.io/badge/hackathon--aiqtoolkit-AI%20Optimization-047857?style=flat-square&logo=nvidia&logoColor=white)](https://github.com/RussellCooper-DJZ/hackathon_aiqtoolkit)
+[![hackathon-aiqtoolkit](https://img.shields.io/badge/hackathon--aiqtoolkit-AI%20Optimization-0F766E?style=flat-square&logo=nvidia&logoColor=white)](https://github.com/RussellCooper-DJZ/hackathon_aiqtoolkit)
 
 This portfolio combines microcontroller-level control, hardware diagnostics, deterministic systems programming and edge-oriented AI deployment. It spans custom robotics hardware, RP2040-based instrumentation, C utilities and model-optimization experiments.
 
 ### 4. Product Experiments, Data & Creative Computing
 
-[![fate-symphony](https://img.shields.io/badge/fate--symphony-Generative%20Audio-7E22CE?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/fate-symphony)
-[![fried-chicken-manager](https://img.shields.io/badge/fried--chicken--manager-Profit%20Analytics-EA580C?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/fried-chicken-manager)
-[![zhvoice](https://img.shields.io/badge/zhvoice-Chinese%20Speech%20Corpus-0284C7?style=flat-square&logo=databricks&logoColor=white)](https://github.com/RussellCooper-DJZ/zhvoice)
+[![fate-symphony](https://img.shields.io/badge/fate--symphony-Generative%20Audio-B45309?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/fate-symphony)
+[![fried-chicken-manager](https://img.shields.io/badge/fried--chicken--manager-Profit%20Analytics-B45309?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/fried-chicken-manager)
+[![zhvoice](https://img.shields.io/badge/zhvoice-Chinese%20Speech%20Corpus-B45309?style=flat-square&logo=databricks&logoColor=white)](https://github.com/RussellCooper-DJZ/zhvoice)
 
 These repositories demonstrate applied experimentation across generative computing, desktop analytics tools and Chinese speech-data resources.
 
 ## Live Metrics
 
-[![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=RussellCooper-DJZ.RussellCooper-DJZ&left_text=Profile%20Views)](https://github.com/RussellCooper-DJZ)
+<p align="center">
+  <a href="https://github.com/RussellCooper-DJZ"><img src="https://visitor-badge.laobi.icu/badge?page_id=RussellCooper-DJZ.RussellCooper-DJZ&left_text=Profile%20Views&left_color=0F172A&right_color=0F766E" alt="Profile views" /></a>
+</p>
 
 > The visitor badge records profile-page requests. It is a page-view counter rather than a unique-visitor measure.
 
 ## GitHub Activity
 
-<p>
+<p align="center">
   <a href="https://github.com/RussellCooper-DJZ">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&show_icons=true&hide_border=true&theme=transparent" alt="Russell's GitHub statistics" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0F172A&amp;title_color=5EEAD4&amp;text_color=CBD5E1&amp;icon_color=2DD4BF" />
+      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&amp;show_icons=true&amp;hide_border=true&amp;bg_color=FFFFFF&amp;title_color=0F766E&amp;text_color=334155&amp;icon_color=0F766E" />
+      <img height="165" src="https://github-readme-stats.vercel.app/api?username=RussellCooper-DJZ&amp;show_icons=true&amp;hide_border=true&amp;bg_color=FFFFFF&amp;title_color=0F766E&amp;text_color=334155&amp;icon_color=0F766E" alt="Russell's GitHub statistics" />
+    </picture>
   </a>
   <a href="https://git.io/streak-stats">
-    <img height="165" src="https://streak-stats.demolab.com/?user=RussellCooper-DJZ&hide_border=true&theme=transparent" alt="GitHub contribution streak" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=RussellCooper-DJZ&amp;hide_border=true&amp;background=0F172A&amp;ring=2DD4BF&amp;fire=FBBF24&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;currStreakLabel=CBD5E1&amp;sideLabels=CBD5E1&amp;dates=94A3B8" />
+      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://streak-stats.demolab.com/?user=RussellCooper-DJZ&amp;hide_border=true&amp;background=FFFFFF&amp;ring=0F766E&amp;fire=F59E0B&amp;currStreakNum=0F172A&amp;sideNums=0F172A&amp;currStreakLabel=475569&amp;sideLabels=475569&amp;dates=94A3B8" />
+      <img height="165" src="https://streak-stats.demolab.com/?user=RussellCooper-DJZ&amp;hide_border=true&amp;background=FFFFFF&amp;ring=0F766E&amp;fire=F59E0B&amp;currStreakNum=0F172A&amp;sideNums=0F172A&amp;currStreakLabel=475569&amp;sideLabels=475569&amp;dates=94A3B8" alt="GitHub contribution streak" />
+    </picture>
   </a>
 </p>
 
-<p>
+<p align="center">
   <a href="https://github.com/RussellCooper-DJZ?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&amp;layout=compact&amp;hide_border=true&amp;bg_color=0F172A&amp;title_color=5EEAD4&amp;text_color=CBD5E1" />
+      <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&amp;layout=compact&amp;hide_border=true&amp;bg_color=FFFFFF&amp;title_color=0F766E&amp;text_color=334155" />
+      <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RussellCooper-DJZ&amp;layout=compact&amp;hide_border=true&amp;bg_color=FFFFFF&amp;title_color=0F766E&amp;text_color=334155" alt="Top languages" />
+    </picture>
   </a>
 </p>
 

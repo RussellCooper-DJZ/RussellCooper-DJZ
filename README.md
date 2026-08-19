@@ -80,6 +80,12 @@ int main() {
 | [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | DWT `CYCCNT` instrumentation is compiled out in the default production build (`PERF_PROBE_ENABLE=0`), so performance diagnostics do not reserve runtime resources; a separate measurement build produces board-side evidence. |
 | [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | A lite profile starts without LangGraph or RAG, uses one configurable local model endpoint, defaults to a bounded 1,024-token response budget, and routes high-risk browser actions to human review before model execution. |
 | [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | Numeric boundary defects were corrected and the repository gained a reproducible `make demo test sanitize` quality gate validated locally with GCC and Clang. |
+| [RCclaw](https://github.com/RussellCooper-DJZ/RCclaw) | A zero-dependency `check:lite-profile` guard now verifies the existing skip-channel gateway, startup-memory, performance-budget and hotspot checks remain available; the runtime guide treats channels and heavy capabilities as explicit opt-ins. |
+| [OfficeMind-Hackathon](https://github.com/RussellCooper-DJZ/OfficeMind-Hackathon) | The router now has a `lite` profile that selects a configurable small text model and fails closed for vision/OCR rather than silently loading an optional large model; its selection rules are shell-tested. |
+| [Browser Operator](https://github.com/RussellCooper-DJZ/openclaw-my-browser-operator) | Core diagnostics now install only `aiohttp` and `click`; Playwright and the OpenAI SDK are optional extras, while a regression test proves CLI help does not import either optional stack. |
+| [manus-skills](https://github.com/RussellCooper-DJZ/manus-skills) | Added a standard-library skill preflight, a resource-budget workflow and a report template, so capability modules are selected and installed individually instead of being loaded wholesale. |
+| [fate-symphony](https://github.com/RussellCooper-DJZ/fate-symphony) | A `--lite` renderer bounds preview buffers, caps output at 11,025 Hz and skips optional reverb; the output WAV contract is regression-tested. |
+| [fried-chicken-manager](https://github.com/RussellCooper-DJZ/fried-chicken-manager) | Profit and sensitivity calculations now have a standard-library CLI that runs without Tkinter or Matplotlib; input validation and 25-scenario analysis are regression-tested. |
 
 ## Original Project Catalogue
 
@@ -91,7 +97,7 @@ int main() {
 [![manus-skills](https://img.shields.io/badge/manus--skills-Reusable%20AI%20Skills-4338CA?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/manus-skills)
 [![Browser Operator](https://img.shields.io/badge/Browser%20Operator-CDP%20Integration-4338CA?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/RussellCooper-DJZ/openclaw-my-browser-operator)
 
-This group presents user-authored agent integrations, office-automation experiments, reusable AI skills and browser-session tooling.
+This group presents user-authored agent integrations, office-automation experiments, reusable AI skills and browser-session tooling. Each showcased project now defines an explicit capability budget rather than treating all models, browsers, channels or retrieval components as mandatory runtime work.
 
 ### 2. Embedded Systems, Robotics & Systems Programming
 
@@ -105,7 +111,7 @@ This group focuses on original work in microcontroller-based robotics and C-orie
 [![fate-symphony](https://img.shields.io/badge/fate--symphony-Generative%20Audio-B45309?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/fate-symphony)
 [![fried-chicken-manager](https://img.shields.io/badge/fried--chicken--manager-Profit%20Analytics-B45309?style=flat-square&logo=python&logoColor=white)](https://github.com/RussellCooper-DJZ/fried-chicken-manager)
 
-These repositories showcase original experiments in generative computing and practical desktop analytics.
+These repositories showcase original experiments in generative computing and practical analytics, each with a functional low-resource path that avoids external libraries or graphical processing when it is not required.
 
 ## Live Metrics
 

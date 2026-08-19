@@ -58,16 +58,24 @@ int main() {
 <p align="center">
   <a href="https://github.com/RussellCooper-DJZ/RCclaw"><img src="https://img.shields.io/badge/RCclaw-Agent%20Integration%20Layer-4338CA?style=for-the-badge&logo=typescript&logoColor=white" alt="RCclaw" /></a>
   <a href="https://github.com/RussellCooper-DJZ/manbo-robot-dog"><img src="https://img.shields.io/badge/manbo--robot--dog-STM32%20Robotics-0F766E?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="manbo robot dog" /></a>
-  <a href="https://github.com/RussellCooper-DJZ/OfficeMind-Hackathon"><img src="https://img.shields.io/badge/OfficeMind-Automation%20Agent-4338CA?style=for-the-badge&logo=python&logoColor=white" alt="OfficeMind" /></a>
+  <a href="https://github.com/RussellCooper-DJZ/OfficeMind-New"><img src="https://img.shields.io/badge/OfficeMind--New-Local%20AI%20Automation-4338CA?style=for-the-badge&logo=fastapi&logoColor=white" alt="OfficeMind New" /></a>
   <a href="https://github.com/RussellCooper-DJZ/c-hacks-library"><img src="https://img.shields.io/badge/c--hacks--library-C%20Systems%20Tools-0F766E?style=for-the-badge&logo=c&logoColor=white" alt="c hacks library" /></a>
 </p>
 
 | Project | Original work focus | Core stack |
 |---|---|---|
 | [RCclaw](https://github.com/RussellCooper-DJZ/RCclaw) | User-authored multi-channel agent integration layer and messaging extensions, built around the OpenClaw ecosystem. | TypeScript · AI agents |
-| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | STM32-based desktop quadruped robot with voice interaction, obstacle avoidance and expressive displays. | C · STM32 · Hardware |
-| [OfficeMind-Hackathon](https://github.com/RussellCooper-DJZ/OfficeMind-Hackathon) | User-authored office automation agent prototype integrating OpenClaw and NVIDIA tooling. | Python · Agent workflows |
-| [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | User-authored C systems-utility experiments for embedded-oriented development. | C · Systems programming |
+| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | STM32 quadruped robot with voice, sensor-safety and DWT-based per-task performance probes for on-target measurement. | C · STM32 · Hardware profiling |
+| [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | Self-hosted local-LLM/VLM office automation with RAG, browser approval gates and API deployment-contract tests. | Python · FastAPI · RAG |
+| [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | Low-level C utilities with documented numeric-boundary semantics, GCC/Clang regression checks and sanitizer validation. | C · Systems programming · Testing |
+
+## Maintained Engineering Evidence
+
+| Repository | Verifiable maintenance outcome |
+|---|---|
+| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | The Keil project now includes a DWT `CYCCNT` probe for the 1 ms cooperative scheduler, plus a board-side measurement protocol that distinguishes estimates from on-target evidence. |
+| [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | The local Docker topology now exports the endpoint variables consumed by the API modules; multipart ingestion and deployment contracts are covered by executable API tests. |
+| [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | Numeric boundary defects were corrected and the repository gained a reproducible `make demo test sanitize` quality gate tested locally with GCC and Clang. |
 
 ## Original Project Catalogue
 

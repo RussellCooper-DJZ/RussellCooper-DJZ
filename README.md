@@ -65,17 +65,21 @@ int main() {
 | Project | Original work focus | Core stack |
 |---|---|---|
 | [RCclaw](https://github.com/RussellCooper-DJZ/RCclaw) | User-authored multi-channel agent integration layer and messaging extensions, built around the OpenClaw ecosystem. | TypeScript · AI agents |
-| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | STM32 quadruped robot with voice, sensor-safety and DWT-based per-task performance probes for on-target measurement. | C · STM32 · Hardware profiling |
-| [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | Self-hosted local-LLM/VLM office automation with RAG, browser approval gates and API deployment-contract tests. | Python · FastAPI · RAG |
+| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | STM32 quadruped robot with voice, sensor safety and DWT profiling compiled out of production firmware by default. | C · STM32 · Resource-aware firmware |
+| [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | Local office automation with a single-model lite runtime, bounded token budget and fail-closed browser approval gates. | Python · FastAPI · Local AI |
 | [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | Low-level C utilities with documented numeric-boundary semantics, GCC/Clang regression checks and sanitizer validation. | C · Systems programming · Testing |
 
-## Maintained Engineering Evidence
+## Engineering Doctrine: Software Efficiency First
+
+> **Extreme capability should come from disciplined software, not compulsory hardware escalation.**
+>
+> The maintained projects expose resource budgets, eliminate unnecessary resident work, and separate diagnostics from production paths. Claims are tied to source, tests, or board-side measurement protocols rather than decorative badges.
 
 | Repository | Verifiable maintenance outcome |
 |---|---|
-| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | The Keil project now includes a DWT `CYCCNT` probe for the 1 ms cooperative scheduler, plus a board-side measurement protocol that distinguishes estimates from on-target evidence. |
-| [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | The local Docker topology now exports the endpoint variables consumed by the API modules; multipart ingestion and deployment contracts are covered by executable API tests. |
-| [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | Numeric boundary defects were corrected and the repository gained a reproducible `make demo test sanitize` quality gate tested locally with GCC and Clang. |
+| [manbo-robot-dog](https://github.com/RussellCooper-DJZ/manbo-robot-dog) | DWT `CYCCNT` instrumentation is compiled out in the default production build (`PERF_PROBE_ENABLE=0`), so performance diagnostics do not reserve runtime resources; a separate measurement build produces board-side evidence. |
+| [OfficeMind-New](https://github.com/RussellCooper-DJZ/OfficeMind-New) | A lite profile starts without LangGraph or RAG, uses one configurable local model endpoint, defaults to a bounded 1,024-token response budget, and routes high-risk browser actions to human review before model execution. |
+| [c-hacks-library](https://github.com/RussellCooper-DJZ/c-hacks-library) | Numeric boundary defects were corrected and the repository gained a reproducible `make demo test sanitize` quality gate validated locally with GCC and Clang. |
 
 ## Original Project Catalogue
 
